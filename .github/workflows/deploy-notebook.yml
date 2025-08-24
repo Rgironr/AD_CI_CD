@@ -63,7 +63,7 @@ jobs:
         
         echo "Verificando si existe el workflow: $WORKFLOW_NAME"
         
-        # Listar todos los workflows y buscar por nombre
+        # Listar todos los workflows y buscar por nombre1
         workflows_response=$(curl -s -X GET \
           -H "Authorization: Bearer $DEST_TOKEN" \
           "$DEST_HOST/api/2.1/jobs/list")
